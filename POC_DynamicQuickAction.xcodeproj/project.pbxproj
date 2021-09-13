@@ -13,6 +13,7 @@
 		52D13D6F26EF3F0E00BF10A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D13D6D26EF3F0E00BF10A3 /* Main.storyboard */; };
 		52D13D7126EF3F0F00BF10A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D13D7026EF3F0F00BF10A3 /* Assets.xcassets */; };
 		52D13D7426EF3F0F00BF10A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D13D7226EF3F0F00BF10A3 /* LaunchScreen.storyboard */; };
+		52D13D7E26EF841C00BF10A3 /* ShortcutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D13D7D26EF841C00BF10A3 /* ShortcutHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52D13D7026EF3F0F00BF10A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D13D7326EF3F0F00BF10A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D13D7526EF3F0F00BF10A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D13D7D26EF841C00BF10A3 /* ShortcutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		52D13D6626EF3F0E00BF10A3 /* POC_DynamicQuickAction */ = {
 			isa = PBXGroup;
 			children = (
-				52D13D6726EF3F0E00BF10A3 /* AppDelegate.swift */,
-				52D13D6926EF3F0E00BF10A3 /* SceneDelegate.swift */,
-				52D13D6B26EF3F0E00BF10A3 /* ViewController.swift */,
+				52D13D8026EF84C200BF10A3 /* Code */,
+				52D13D7F26EF84AC00BF10A3 /* Resources */,
 				52D13D6D26EF3F0E00BF10A3 /* Main.storyboard */,
-				52D13D7026EF3F0F00BF10A3 /* Assets.xcassets */,
 				52D13D7226EF3F0F00BF10A3 /* LaunchScreen.storyboard */,
-				52D13D7526EF3F0F00BF10A3 /* Info.plist */,
 			);
 			path = POC_DynamicQuickAction;
+			sourceTree = "<group>";
+		};
+		52D13D7F26EF84AC00BF10A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52D13D6726EF3F0E00BF10A3 /* AppDelegate.swift */,
+				52D13D6926EF3F0E00BF10A3 /* SceneDelegate.swift */,
+				52D13D7526EF3F0F00BF10A3 /* Info.plist */,
+				52D13D7026EF3F0F00BF10A3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52D13D8026EF84C200BF10A3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				52D13D7D26EF841C00BF10A3 /* ShortcutHelper.swift */,
+				52D13D6B26EF3F0E00BF10A3 /* ViewController.swift */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 				52D13D6C26EF3F0E00BF10A3 /* ViewController.swift in Sources */,
 				52D13D6826EF3F0E00BF10A3 /* AppDelegate.swift in Sources */,
 				52D13D6A26EF3F0E00BF10A3 /* SceneDelegate.swift in Sources */,
+				52D13D7E26EF841C00BF10A3 /* ShortcutHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
